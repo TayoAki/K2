@@ -1,0 +1,13 @@
+#sidebar-wrapper {
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  transition: all .4s ease 0s;
+  -webkit-transform: translateX(250px);
+  transform: translateX(250px);
+  background: #9f1d9a;
+  border-left: 1px solid hsla(0,0%,100%,.1);
+}
+
